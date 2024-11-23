@@ -49,6 +49,7 @@ if ($jwt) {
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
+                <li><a href="top_products.php">Top products</a></li>
                 <?php if ($first_name): ?>
                     <li>Welcome, <?php echo htmlspecialchars($first_name); ?></li>
                     <li><a href="logout.php">Logout</a></li>
